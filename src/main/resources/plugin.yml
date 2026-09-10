@@ -1,9 +1,10 @@
 name: FastttAuth
 version: 2.0.0
 main: com.fasttt.auth.AuthPlugin
-api-version: 1.8
+api-version: '1.21'
 author: Fasttt
 description: نظام Register و Login + كشف كلمات المرور
+website: https://github.com/hfdegxdhtfgjrhgg-lgtm
 
 commands:
   register:
