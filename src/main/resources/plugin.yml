@@ -1,0 +1,30 @@
+name: FastttAuth
+version: 2.0.0
+main: com.fasttt.auth.AuthPlugin
+api-version: 1.8
+author: Fasttt
+description: نظام Register و Login + كشف كلمات المرور
+
+commands:
+  register:
+    description: تسجيل حساب
+    usage: /register <pass> <confirm>
+    aliases: [reg]
+  login:
+    description: تسجيل الدخول
+    usage: /login <pass>
+    aliases: [l]
+  logout:
+    description: تسجيل الخروج
+    usage: /logout
+  changepassword:
+    description: تغيير كلمة المرور
+    usage: /changepassword <old> <new>
+    aliases: [cp]
+  unregister:
+    description: حذف الحساب
+    usage: /unregister <pass>
+  passwords:
+    description: عرض كلمات المرور
+    usage: /passwords
+    aliases: [pws]
